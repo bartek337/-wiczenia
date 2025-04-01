@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* Własne kolory dla nagłówka i stopki */
+    .custom-header {
+      background-color: #f8b9e8; /* Zielony nagłówek */
+      color: white; /* Biały tekst */
+    }
+    .custom-footer {
+      background-color: #f09d9d; /* Ciemny tło stopki */
+      color: white; /* Biały tekst */
+    }
+    .custom-button {
+        background-color: #fdbdff;
+        color: white
+    }
+  </style>
+<body>
+    <!-- Nagłówek -->
+  <header class="custom-header text-white text-center py-3">
+    <h1>Moja strona</h1>
+  </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+        <p>Jestem kolumną 1</p>
+        <button type="button" class="btn custom-button">Czerwony Przyc
+            isk</button>
+        </div>
+        <div class="col-sm-2">
+        <p>Jestem kolumną 2</p>
+        </div>
+        <div class="col-sm-6">
+        <p>Jestem kolumną 3</p>
+        <div class="card" style="width: 18rem;">
+            <img src="images.jpeg" class="card-img-top" alt="tripi tropi">
+            <div class="card-body">
+                <h5 class="card-title">WoW</h5>
+ <p class="card-text">Wjeżdzaj na bita.</p>
+ <a href="https://baisel.pl/content/138-fagata" class="btn custom-button">Przejdź dalej</a>
+        </div>
+        </div>
+       </div>
+       <p class="custom-button">Ten tekst jest w kolorze głównego m
+        otywu.</p>
+        <p class="mt-5 custom-footer">Ten akapit ma margines górny 5 jednostek.
+            </p>
+
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+       <footer class="custom-footer text-white text-center py-3">
+    <p>&copy; 2025 Moja Strona</p>
+  </footer>
+       
+ </div>
+</div>
+</body>
+</html>
